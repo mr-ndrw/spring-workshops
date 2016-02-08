@@ -1,0 +1,9 @@
+Add spring required dependencies to pom.xml
+
+Create beans configuration in resources directory
+
+Setup spring context using added configuration
+
+Retrieve implementation of users repository from context
+
+Use debugger to check 
