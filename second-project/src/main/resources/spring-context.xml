@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="info.owczarek.spring.workshops.firstproject.people.PersonsRepositoryInMemory"
+          id="personsRepository"/>
+
+    <bean class="info.owczarek.spring.workshops.firstproject.taxes.TaxServiceIn2015"
+          id="taxService">
+        <!--inject necessary properties-->
+    </bean>
+
+
+</beans>

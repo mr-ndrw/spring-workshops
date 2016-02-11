@@ -21,6 +21,3 @@
 - Make fun:
     - Split beans configurations into two separate configuration files and load both of them
     - Add another configuration, import two separate configuration and load only composing configuration
-
-- Costructor injection
-    - Inject properties to tax service using constructor

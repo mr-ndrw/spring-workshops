@@ -1,0 +1,10 @@
+- Costructor injection
+    - Inject properties to tax service using constructor
+
+- Factory methods
+    - Create TaxOfficeClient bean using static factory method
+
+- Inner beans:
+    - Make TaxOfficeClient inner bean of tax service
+
+- Inject map with tax rates and use it in TaxOfficeClient
