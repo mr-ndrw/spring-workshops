@@ -18,4 +18,12 @@ public class TaxServiceIn2015 implements TaxService {
     public double getFlatTaxLevel() {
         return flatTaxLevel;
     }
+
+    public void setFlatTaxLevel(double flatTaxLevel) {
+        this.flatTaxLevel = flatTaxLevel;
+    }
+
+    public void setPersonsRepository(PersonsRepository personsRepository) {
+        this.personsRepository = personsRepository;
+    }
 }
